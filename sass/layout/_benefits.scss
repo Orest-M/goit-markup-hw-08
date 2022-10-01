@@ -1,0 +1,133 @@
+@media screen and (max-width: 767px) {
+    .benefits-list__titles {
+        text-align: center;
+    }
+
+    .benefits-div__mobile-margin {
+        margin-top: 30px;
+    }
+}
+
+.section-our-benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.benefits-div {
+    @extend %align;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    max-width: 450px;
+    height: 120px;
+}
+
+.benefits-div__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.benefits-list__titles {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-text-color);
+    margin-bottom: 10px;
+}
+
+.benefits-list__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+@media screen and (min-width: 768px) {
+    .benefits-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap
+    }
+
+    .benefits-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        width: 354px;
+        height: 120px;
+    }
+
+    .benefits-list__paragraph {
+        width: 354px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section-our-benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.benefits-div {
+    @extend %align;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+}
+
+.benefits-list__paragraph {
+        width: 270px; 
+    }
+}
+
+
+// .section-our-benefits {
+//     padding-top: 94px;
+// } 
+
+// .benefits-list {
+//     display: flex;
+//     justify-content: center;
+//     gap: 30px;
+// }
+
+// .benefits-div {
+//     @extend %align;
+//     background-color: #F5F4FA;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     width: 270px;
+//     height: 120px;
+// }
+
+// .benefits-div__icon {
+//     width: 70px;
+//     height: 70px;
+// }
+
+// .benefits-list__titles {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: var(--dark-text-color);
+//     margin-bottom: 10px;
+// }
+
+// .benefits-list__paragraph {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: #757575;
+// }

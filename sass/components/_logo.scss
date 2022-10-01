@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+    .header-logo {
+        margin-right: 87px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header-logo {
+        margin-right: 93px;
+    }
+}
+
+.logo-web {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-logo__studio {
+    color: #000;
+    text-decoration: none;
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo__studio {
+    color: var(--white-text-color);
+    text-decoration: none;
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}

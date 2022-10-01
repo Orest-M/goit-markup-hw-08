@@ -1,0 +1,23 @@
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/visually-hidden';
+
+@import './base/base';
+@import './base/container';
+
+@import './components/logo';
+@import './components/webstudio-buttons';
+@import './components/social-list';
+@import './components/webstudio-titles';
+
+@import './layout/header';
+@import './layout/top';
+@import './layout/benefits';
+@import './layout/we-do';
+@import './layout/our-team';
+@import './layout/regular-customers';
+@import './layout/portfolio';
+@import './layout/footer';
+@import './layout/backdrop';
+@import './layout/modal-window';
+@import './layout/modal-form';

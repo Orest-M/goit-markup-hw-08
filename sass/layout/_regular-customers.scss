@@ -1,0 +1,111 @@
+@media screen and (max-width: 767px) {
+    .regular-customer-list__link {
+        width: 210px;
+    }
+}
+
+.regular-customer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.regular-customer-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text-color);
+    margin-bottom: 30px;
+}
+
+.regular-customer-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.regular-customer-list__link {
+    @extend %align;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color var(--primary-transition);
+
+    &:hover, &:focus {
+        border-color: var(--color-primary);
+        .regular-customer-list__icon {
+            fill: var(--color-primary);
+        }
+    }
+}
+
+.regular-customer-list__icon {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+    transition: fill var(--primary-transition);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .regular-customer-list__link {
+        width: 226px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .regular-customer-list__link {
+        width: 170px;
+    }
+
+    .regular-customer-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+// .regular-customer-section {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+// }
+
+// .regular-customer-title {
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.17;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     color: var(--dark-text-color);
+//     margin-bottom: 50px;
+// }
+
+// .regular-customer-list {
+//     display: flex;
+//     gap: 30px;
+//     justify-content: space-between;
+// }
+
+// .regular-customer-list__link {
+//     @extend %align;
+//     width: 170px;
+//     height: 92px;
+//     border: 1px solid #AFB1B8;
+//     border-radius: 4px;
+//     transition: border-color var(--primary-transition);
+
+//     &:hover, &:focus {
+//         border-color: var(--color-primary);
+//         .regular-customer-list__icon {
+//             fill: var(--color-primary);
+//         }
+//     }
+// }
+
+// .regular-customer-list__icon {
+//     width: 106px;
+//     height: 60px;
+//     fill: #AFB1B8;
+//     transition: fill var(--primary-transition);
+// }
