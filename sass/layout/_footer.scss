@@ -129,8 +129,8 @@
     color: var(--white-text-color);
     padding-left: 16px;
     margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+    // margin-left: 0;
+    // margin-right: 0;
     transition: border-color var(--primary-transition);
     
     &:focus {
