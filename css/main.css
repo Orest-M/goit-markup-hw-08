@@ -1023,9 +1023,7 @@ ul {
     /* gap: 70px; */
     align-items: center;
     flex-wrap: wrap;
-  }
-  .footer-div-social {
-    margin-left: auto;
+    justify-content: space-around;
   }
   .footer-social__text {
     margin-top: 0;
@@ -1039,6 +1037,9 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
+  .footer-div {
+    align-items: baseline;
+  }
   .footer-div-contacts {
     display: flex;
     flex-direction: column;
