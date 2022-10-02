@@ -696,7 +696,7 @@ ul {
 .regular-customer-list {
   display: flex;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
